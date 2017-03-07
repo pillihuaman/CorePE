@@ -13,7 +13,7 @@ namespace SerializaryDesSerializarXML
     {
         static void Main(string[] args)
         {
-            //PostTOApi();
+            PostTOApi();
             //SerizalizarDesSerializaXML();
             Console.ReadLine();
 
@@ -56,7 +56,9 @@ namespace SerializaryDesSerializarXML
             Request.UseDefaultCredentials = true;
             //Request.ContentLength = Byte
             Request.Proxy.Credentials = System.Net.CredentialCache.DefaultCredentials;
+
             byte[] bytes = Encoding.UTF8.GetBytes(PostData);
+
             Request.ContentLength = bytes.Length;
             Stream StreamWri = Request.GetRequestStream();
             StreamWri.Write(bytes, 0, bytes.Length);

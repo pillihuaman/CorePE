@@ -24,15 +24,15 @@ namespace WEBAPICIp.Controllers
         // POST api/values
         [System.Web.Http.HttpPost]
 
-        public string Post([FromBody] Login Response)
+        public string Post([FromBody]  byte[] bytes)
         {
-            Login log = new Login();
-            log = Response;
+            //Login log = new Login();
+            //log = Response;
           
 
          
             
-            return "StreinLEn"+Response;
+            return "StreinLEn";
         }
 
         // PUT api/values/5
