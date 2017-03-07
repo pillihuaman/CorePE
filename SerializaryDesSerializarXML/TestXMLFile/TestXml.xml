@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BeCliente xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IdCliente>1222</IdCliente>
+  <IdUsuario>1222</IdUsuario>
+  <Alias>mendel</Alias>
+  <EmailAlternativo>Pillihuamanhz@gmail.com</EmailAlternativo>
+  <TieneInfoCompleta>true</TieneInfoCompleta>
+  <HabilitarMonedero>true</HabilitarMonedero>
+  <FechaInfoCompleta>2017-02-17T16:28:29.4685768-05:00</FechaInfoCompleta>
+  <FechaHabilitarMonedero>2017-02-17T16:28:29.3004746-05:00</FechaHabilitarMonedero>
+  <FechaInhabilitarMonedero>2017-02-17T16:28:29.7484666-05:00</FechaInhabilitarMonedero>
+  <Observaciones>Generacion de XML FIle to Mendel</Observaciones>
+</BeCliente>

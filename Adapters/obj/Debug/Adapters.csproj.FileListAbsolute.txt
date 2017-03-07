@@ -1,0 +1,5 @@
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\Adapters\bin\Debug\Adapters.dll
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\Adapters\bin\Debug\Adapters.pdb
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\Adapters\obj\Debug\Adapters.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\Adapters\obj\Debug\Adapters.dll
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\Adapters\obj\Debug\Adapters.pdb

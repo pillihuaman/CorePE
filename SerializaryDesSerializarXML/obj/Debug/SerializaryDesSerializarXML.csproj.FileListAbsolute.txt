@@ -1,0 +1,7 @@
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\SerializaryDesSerializarXML\bin\Debug\SerializaryDesSerializarXML.exe
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\SerializaryDesSerializarXML\bin\Debug\SerializaryDesSerializarXML.pdb
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\SerializaryDesSerializarXML\obj\Debug\SerializaryDesSerializarXML.exe
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\SerializaryDesSerializarXML\obj\Debug\SerializaryDesSerializarXML.pdb
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\SerializaryDesSerializarXML\bin\Debug\BusinessEntity.dll
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\SerializaryDesSerializarXML\bin\Debug\BusinessEntity.pdb
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\SerializaryDesSerializarXML\obj\Debug\SerializaryDesSerializarXML.csprojResolveAssemblyReference.cache

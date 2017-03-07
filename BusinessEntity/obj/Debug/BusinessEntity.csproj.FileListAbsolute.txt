@@ -1,0 +1,6 @@
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\BusinessEntity\bin\Debug\BusinessEntity.dll
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\BusinessEntity\bin\Debug\BusinessEntity.pdb
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\BusinessEntity\obj\Debug\BusinessEntity.dll
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\BusinessEntity\obj\Debug\BusinessEntity.pdb
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\BusinessEntity\bin\Debug\BusinessEntity.dll.config
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\BusinessEntity\obj\Debug\BusinessEntity.csprojResolveAssemblyReference.cache

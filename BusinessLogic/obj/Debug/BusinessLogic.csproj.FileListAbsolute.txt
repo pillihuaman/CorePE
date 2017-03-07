@@ -1,0 +1,6 @@
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\BusinessLogic\bin\Debug\BusinessLogic.dll
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\BusinessLogic\bin\Debug\BusinessLogic.pdb
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\BusinessLogic\obj\Debug\BusinessLogic.dll
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\BusinessLogic\obj\Debug\BusinessLogic.pdb
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\BusinessLogic\bin\Debug\BusinessLogic.dll.config
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache

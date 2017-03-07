@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<ul>
+
+    @for(int i=0;i<=12;i++)
+            {
+    <li>@i</li>
+        }
+
+    @{ var Mensaje = "Numero de parcelas Instaladas";}
+
+    <h3>@Mensaje</h3>
+    <h4>La hora es</h4>
+    <table>
+        <tr><td>@DateTime.Now.Date</td></tr>
+        <tr><td>@DateTime.Now.Date</td></tr>
+        <tr><td>@DateTime.Now.Date</td></tr>
+        <tr><td>@DateTime.Now.Date</td></tr>
+        <tr><td>@DateTime.Now.Date</td></tr>
+        <tr><td>@DateTime.Now.Date</td></tr>
+    </table>
+</ul>

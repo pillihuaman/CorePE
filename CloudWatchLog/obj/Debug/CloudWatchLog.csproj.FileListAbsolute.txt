@@ -1,0 +1,4 @@
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\CloudWatchLog\bin\Debug\CloudWatchLog.dll
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\CloudWatchLog\bin\Debug\CloudWatchLog.pdb
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\CloudWatchLog\obj\Debug\CloudWatchLog.dll
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\CloudWatchLog\obj\Debug\CloudWatchLog.pdb
