@@ -172,6 +172,7 @@
     <Compile Include="BackEnd\Conexion.cs" />
     <Compile Include="BackEnd\Employee.cs" />
     <Compile Include="BackEnd\Feedback.cs" />
+    <Compile Include="Controllers\FeedControllerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ParcelasController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
