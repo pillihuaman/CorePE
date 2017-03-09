@@ -5,6 +5,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using BusinessEntity;
+using BibliotecaDesarrollo;
 namespace WEBAPICIp.Controllers
 {
     public class ValuesController : ApiController
@@ -36,7 +37,7 @@ namespace WEBAPICIp.Controllers
         }
 
         // PUT api/values/5
-        public void Put(int id, [FromBody] Models.CIP PostData)
+        public void Put(int id, [FromBody] string PostData)
         {
         }
 
@@ -44,6 +45,28 @@ namespace WEBAPICIp.Controllers
         public void Delete(int id)
         {
         }
+
+
+        public HttpResponseMessage PostAddNewEmploye(Employee Emplo)
+        {
+            List<Employee> add= new List<Employee>();
+            if (Emplo == null)
+            {
+                throw new ArgumentException();
+
+            }
+            else
+            {
+                add.Add(Emplo);
+                var response = Request.CreateResponse<Employee>(HttpStatusCode.Created,Emplo);
+                string URll = Url.Link("DefaultApi", new { id = Emplo.Uid });
+                response.Headers.Location = new Uri(URll);
+                return response;
+            }
+        }
+ 
+
+        
         
     }
 }

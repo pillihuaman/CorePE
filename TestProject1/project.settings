@@ -1,0 +1,6 @@
+{
+  "$version": "project-settings/v1",
+  "variables": {
+    "base-url": "http://localhost:5000"
+  }
+}

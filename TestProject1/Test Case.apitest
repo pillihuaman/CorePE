@@ -1,0 +1,32 @@
+{
+  "$version": "test-case/v1",
+  "steps": [
+    {
+      "key": "1fbpymLRhEzgvw2Kmuhc62",
+      "name": "Http Request",
+      "action": {
+        "key": "7zi1O6zVQ4DrKk4T22lCiE",
+        "type": "http-request",
+        "properties": {
+          "Method": "POST",
+          "Url": "{{base-url}}/api/users",
+          "Body": "{\"Content\":\"\",\"FilePath\":null,\"Mode\":\"raw\"}"
+        }
+      },
+      "verifications": [
+        {
+          "key": "3e7gaCfuhj0ZBnm2dbOLbt",
+          "type": "verify",
+          "properties": {
+            "SourceVariable": "StatusCode",
+            "Expectation": 200,
+            "OperationType": "is-equal-number"
+          }
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "http://localhost:50545/api/values": null
+  }
+}

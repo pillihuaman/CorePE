@@ -168,11 +168,6 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
-    <Compile Include="BackEnd\CIP.cs" />
-    <Compile Include="BackEnd\Conexion.cs" />
-    <Compile Include="BackEnd\Employee.cs" />
-    <Compile Include="BackEnd\Feedback.cs" />
-    <Compile Include="Controllers\FeedControllerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ParcelasController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
@@ -303,6 +298,10 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BibliotecaDesarrollo\BibliotecaDesarrollo.csproj">
+      <Project>{d0a69f46-a7e6-49d3-b31b-c239593fd2f8}</Project>
+      <Name>BibliotecaDesarrollo</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BusinessEntity\BusinessEntity.csproj">
       <Project>{d67b3a52-b8f5-413a-93fd-31b54fe53232}</Project>
       <Name>BusinessEntity</Name>

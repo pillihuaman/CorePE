@@ -6,6 +6,13 @@ using BusinessEntity;
 using System.IO;
 using System.Web;
 using System.Net;
+using System.Web.Http;
+using System.Net.Http.Headers;
+using System.Web.Http;
+using BibliotecaDesarrollo;
+using System.Net.Http;
+//using System.Net.Http.Formatting;
+using Newtonsoft.Json;
 
 namespace SerializaryDesSerializarXML
 {
@@ -13,7 +20,21 @@ namespace SerializaryDesSerializarXML
     {
         static void Main(string[] args)
         {
-            PostTOApi();
+
+
+            Console.WriteLine("---------ADD New Employee--------");
+
+            Employee em = new Employee() { Uid = "1", Name = "zarmir pillihuaman hurtado", Address = "San martin", City = "LIma" };
+            HttpResponseMessage responsepostmetod = ClientePostRequest("api/PostAddNewEmploye", em);
+            responsepostmetod.EnsureSuccessStatusCode();
+            if (responsepostmetod.IsSuccessStatusCode)
+            {
+                Uri Empurl = responsepostmetod.Headers.Location;
+                Console.WriteLine(Empurl.ToString());
+            }
+
+
+            //PostTOApi();
             //SerizalizarDesSerializaXML();
             Console.ReadLine();
 
@@ -45,34 +66,48 @@ namespace SerializaryDesSerializarXML
 
         
         }
-        public static string PostTOApi()
+        //public static string PostTOApi()
+        //{
+        //    HttpWebRequest Request = (HttpWebRequest)WebRequest.Create("http://localhost:50545/api/values");
+        //    string PostData = "Data... leng";
+        //    Request.Method = "POST";
+        //    Request.ContentType = "application/json";
+        //    Request.UserAgent = "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 7.1; Trident/5.0)";
+        //    Request.Accept = "/";
+        //    Request.UseDefaultCredentials = true;
+        //    //Request.ContentLength = Byte
+        //    Request.Proxy.Credentials = System.Net.CredentialCache.DefaultCredentials;
+
+        //    byte[] bytes = Encoding.UTF8.GetBytes(PostData);
+
+        //    Request.ContentLength = bytes.Length;
+        //    Stream StreamWri = Request.GetRequestStream();
+        //    StreamWri.Write(bytes, 0, bytes.Length);
+        //    StreamWri.Close();
+        //    WebResponse res = Request.GetResponse();
+        //    if (res == null) return null;
+        //    StreamReader read = new StreamReader(res.GetResponseStream());
+
+        //    //HttpWebResponse Response = Request.GetResponse() as HttpWebResponse;
+        //    string Response = read.ReadToEnd().Trim();
+
+
+        //    return Response;
+
+        
+        
+        //}
+
+
+        public static HttpResponseMessage ClientePostRequest(string RequestURL,Employee empl)
         {
-            HttpWebRequest Request = (HttpWebRequest)WebRequest.Create("http://localhost:50545/api/values");
-            string PostData = "Data... leng";
-            Request.Method = "POST";
-            Request.ContentType = "application/json";
-            Request.UserAgent = "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 7.1; Trident/5.0)";
-            Request.Accept = "/";
-            Request.UseDefaultCredentials = true;
-            //Request.ContentLength = Byte
-            Request.Proxy.Credentials = System.Net.CredentialCache.DefaultCredentials;
+            HttpClient CLiente = new HttpClient();
+            CLiente.BaseAddress = new Uri("http://localhost:50545/");
+            CLiente.DefaultRequestHeaders.Accept.Clear();
+            CLiente.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+            var resonse = CLiente.PostAsJsonAsync<Employee>(RequestURL, empl).Result;
 
-            byte[] bytes = Encoding.UTF8.GetBytes(PostData);
-
-            Request.ContentLength = bytes.Length;
-            Stream StreamWri = Request.GetRequestStream();
-            StreamWri.Write(bytes, 0, bytes.Length);
-            StreamWri.Close();
-            WebResponse res = Request.GetResponse();
-            if (res == null) return null;
-            StreamReader read = new StreamReader(res.GetResponseStream());
-
-            //HttpWebResponse Response = Request.GetResponse() as HttpWebResponse;
-            string Response = read.ReadToEnd().Trim();
-
-
-            return Response;
-
+            return resonse;
         
         
         }

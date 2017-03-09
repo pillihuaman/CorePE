@@ -77,3 +77,5 @@ C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\obj\Debug\WEBAPI
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\obj\Debug\WEBAPICIp.pdb
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\BusinessEntity.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\BusinessEntity.pdb
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\BibliotecaDesarrollo.dll
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\BibliotecaDesarrollo.pdb

@@ -5,3 +5,7 @@ C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\SerializaryDesSerializarXM
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\SerializaryDesSerializarXML\bin\Debug\BusinessEntity.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\SerializaryDesSerializarXML\bin\Debug\BusinessEntity.pdb
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\SerializaryDesSerializarXML\obj\Debug\SerializaryDesSerializarXML.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\SerializaryDesSerializarXML\bin\Debug\BibliotecaDesarrollo.dll
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\SerializaryDesSerializarXML\bin\Debug\BibliotecaDesarrollo.pdb
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\SerializaryDesSerializarXML\bin\Debug\Newtonsoft.Json.dll
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\SerializaryDesSerializarXML\bin\Debug\Newtonsoft.Json.xml

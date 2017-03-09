@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<run passed="0" failed="1" unexecuted="0" time="2646" total="1">
+  <tests>
+    <test key=".\Test Case" name="Test Case" outcome="failed" time="2125">
+      <step id="1fbpymLRhEzgvw2Kmuhc62" name="Http Request" outcome="failed" time="2115">
+        <action id="7zi1O6zVQ4DrKk4T22lCiE" type="http-request" outcome="failed" time="2099">
+          <error message="No es posible conectar con el servidor remoto" />
+        </action>
+      </step>
+    </test>
+  </tests>
+  <output />
+  <errors />
+</run>
