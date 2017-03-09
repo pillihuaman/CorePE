@@ -31,7 +31,6 @@ C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\System.Web.H
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\System.Web.Http.WebHost.xml
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\EntityFramework.xml
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\System.Net.Http.xml
-C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\System.Net.Http.WebRequest.xml
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\System.Web.Helpers.xml
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\System.Web.Mvc.xml
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\System.Web.Razor.xml
@@ -44,7 +43,6 @@ C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\Microsoft.Da
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\Microsoft.Data.OData.xml
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\System.Spatial.xml
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\es\System.Net.Http.resources.dll
-C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\es\System.Net.Http.WebRequest.resources.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\de\Microsoft.Data.Edm.resources.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\es\Microsoft.Data.Edm.resources.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\fr\Microsoft.Data.Edm.resources.dll

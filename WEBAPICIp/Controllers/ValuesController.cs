@@ -16,6 +16,7 @@ namespace WEBAPICIp.Controllers
             return new string[] { "value1", "value2" };
         }
 
+     
         // GET api/values/5
         public string Get(int id)
         {
@@ -35,6 +36,7 @@ namespace WEBAPICIp.Controllers
             
             return "StreinLEn";
         }
+       
 
         // PUT api/values/5
         public void Put(int id, [FromBody] string PostData)
@@ -47,23 +49,25 @@ namespace WEBAPICIp.Controllers
         }
 
 
-        public HttpResponseMessage PostAddNewEmploye(Employee Emplo)
-        {
-            List<Employee> add= new List<Employee>();
-            if (Emplo == null)
-            {
-                throw new ArgumentException();
-
-            }
-            else
-            {
-                add.Add(Emplo);
-                var response = Request.CreateResponse<Employee>(HttpStatusCode.Created,Emplo);
-                string URll = Url.Link("DefaultApi", new { id = Emplo.Uid });
-                response.Headers.Location = new Uri(URll);
-                return response;
-            }
-        }
+        //public HttpResponseMessage PostAddNewEmploye(Product Pro)
+        //{
+        //    List<Employee> add= new List<Employee>();
+        //    if (Pro == null)
+        //    {
+        //        throw new ArgumentException();
+        
+        //    }
+        //    else
+        //    {
+        //        add.Add(Pro);
+        //        var response = Request.CreateResponse<Employee>(HttpStatusCode.Created, Pro);
+        //        string URll = Url.Link("DefaultApi", new { id = Emplo.Uid });
+        //        response.Headers.Location = new Uri(URll);
+        //        return response;
+                 
+               
+        //    }
+        //}
  
 
         

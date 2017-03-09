@@ -1,0 +1,11 @@
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\ClienteAPP\bin\Debug\ClienteAPP.exe.config
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\ClienteAPP\bin\Debug\ClienteAPP.exe
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\ClienteAPP\bin\Debug\ClienteAPP.pdb
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\ClienteAPP\obj\Debug\ClienteAPP.exe
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\ClienteAPP\obj\Debug\ClienteAPP.pdb
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\ClienteAPP\obj\Debug\ClienteAPP.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\ClienteAPP\bin\Debug\Newtonsoft.Json.dll
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\ClienteAPP\bin\Debug\Newtonsoft.Json.xml
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\ClienteAPP\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\ClienteAPP\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\ClienteAPP\bin\Debug\System.Net.Http.Primitives.dll
