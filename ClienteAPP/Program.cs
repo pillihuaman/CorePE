@@ -32,7 +32,7 @@ namespace ClienteAPP
                 cliente.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
                 Product Prod = new Product();
-                Prod.Category = "";
+                Prod.Category = "Categoria1";
                 Prod.Id = "1";
                 Prod.Name = "Namaproducto";
                 Prod.Price = 23;
