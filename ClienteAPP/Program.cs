@@ -63,10 +63,21 @@ namespace ClienteAPP
         }
         static async Task<Uri> CreateProductAsync(Product pro)
         {
-            HttpResponseMessage Response = await cliente.PostAsJsonAsync("api/products", pro);
+
+
+            try
+            {
+
+
+                HttpResponseMessage Response = await cliente.PostAsJsonAsync("api/Product", pro);
             Response.EnsureSuccessStatusCode();
             return Response.Headers.Location;
-
+            }
+          
+              catch (HttpRequestException ex) { 
+               throw ex;
+               
+              }
        
         }
 

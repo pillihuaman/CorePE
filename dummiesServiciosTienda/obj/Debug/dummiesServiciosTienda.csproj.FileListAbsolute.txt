@@ -14,7 +14,6 @@ C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\bin
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\bin\System.Web.WebPages.Razor.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\bin\Newtonsoft.Json.xml
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\bin\System.Net.Http.xml
-C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\bin\System.Net.Http.WebRequest.xml
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\bin\System.Web.Helpers.xml
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\bin\System.Web.Mvc.xml
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\bin\System.Web.Razor.xml
@@ -22,7 +21,6 @@ C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\bin
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\bin\System.Web.WebPages.Deployment.xml
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\bin\System.Web.WebPages.Razor.xml
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\bin\es\System.Net.Http.resources.dll
-C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\bin\es\System.Net.Http.WebRequest.resources.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\obj\Debug\dummiesServiciosTienda.csprojResolveAssemblyReference.cache
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\obj\Debug\dummiesServiciosTienda.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\obj\Debug\dummiesServiciosTienda.pdb

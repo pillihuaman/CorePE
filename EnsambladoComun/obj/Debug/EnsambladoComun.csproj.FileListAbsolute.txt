@@ -1,5 +1,4 @@
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\EnsambladoComun\bin\Debug\EnsambladoComun.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\EnsambladoComun\bin\Debug\EnsambladoComun.pdb
-C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\EnsambladoComun\obj\Debug\EnsambladoComun.csprojResolveAssemblyReference.cache
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\EnsambladoComun\obj\Debug\EnsambladoComun.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\EnsambladoComun\obj\Debug\EnsambladoComun.pdb

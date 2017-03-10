@@ -6,6 +6,7 @@ using System.Net.Http;
 using System.Web.Http;
 using BusinessEntity;
 using BibliotecaDesarrollo;
+using Newtonsoft.Json;
 namespace WEBAPICIp.Controllers
 {
     public class ValuesController : ApiController
@@ -26,20 +27,21 @@ namespace WEBAPICIp.Controllers
         // POST api/values
         [System.Web.Http.HttpPost]
 
-        public string Post([FromBody]  byte[] bytes)
+        public string Post([FromBody]   Product pr)
         {
-            //Login log = new Login();
-            //log = Response;
-          
+            ////Login log = new Login();
+            ////log = Response;
+            //pr.Category = "1";
+            //pr.Id = "1";
 
-         
-            
-            return "StreinLEn";
+
+
+            return "";
         }
        
 
         // PUT api/values/5
-        public void Put(int id, [FromBody] string PostData)
+        public void Put(int id, [FromBody] Product pro)
         {
         }
 
