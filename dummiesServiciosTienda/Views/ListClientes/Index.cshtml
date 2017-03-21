@@ -1,0 +1,91 @@
+﻿@{
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        @using (Html.BeginForm("Create", "ListClientes", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+
+            <h1>Listar clientes</h1>
+            <label>umero 1</label><input type="text" name="Numero1" />
+            <label> numero 2 </label><input type="text" name="Numero2" />
+    
+
+          
+            <input type="submit" value="Enviar" />
+            <table>
+                <tr><td>@Request.Url</td><td>@Request.AppRelativeCurrentExecutionFilePath</td></tr>
+                <tr><td>@Request.AnonymousID</td><td>@Request.Browser</td></tr>
+                <tr><td>@Request.ClientCertificate <br /> Certificacion del cliente</td></tr>
+            </table>
+
+            <ul>
+                <li>@Request.ClientCertificate+"ClientCertificate"</li>
+                <li>@Request.ContentEncoding+"ContentEncoding"</li>
+                <li>@Request.ContentLength+"ContentLength"</li>
+                <li>@Request.ContentType+"ContentType"</li>
+                <li>@Request.Cookies+"Cookies"</li>
+                <li>@Request.CurrentExecutionFilePath+"CurrentExecutionFilePath"</li>
+                <li>@Request.FilePath+"FilePath"</li>
+                <li>@Request.Files+"Files"</li>
+                <li>@Request.Filter+"Filter"</li>
+                <li>@Request.Form+"Form"</li>
+                <li>@Request.Headers+"Header"</li>
+                <li>@Request.HttpChannelBinding+"HttpChannelBinding"</li>
+                <li>@Request.HttpMethod+"HttpMethod"</li>
+                <li>@Request.InputStream+"InputStream"</li>
+                <li>@Request.IsAjaxRequest()+"IsAjaxRequest"</li>
+                <li>@Request.IsAuthenticated+"IsAuthenticated"</li>
+                <li>@Request.IsLocal+"IsLocal"+</li>
+                <li>@Request.IsSecureConnection+"IsSecureConnection"</li>
+                <li>@Request.Url+"URL"</li>
+                <li>@Request.UrlReferrer+"URLReferre"</li>
+                <li>@Request.UserAgent+"userAgente"</li>
+                <li>@Request.UserHostAddress+"UserHostAddress"</li>
+                <li>@Request.UserHostName+"UserHostName"</li>
+                <li>@Request.UserLanguages+"UserLanguages"</li>
+                <li>@Request.Params+"parmas"</li>
+                <li>@Request.Path</li>
+                <li>@Request.PathInfo+"pathInfor"</li>
+                <li>@Request.PhysicalApplicationPath+"PysicalPathAplication"</li>
+                <li>@Request.PhysicalPath+"PhysicalPath"</li>
+                <li>@Request.QueryString+"QueryString"</li>
+                <li>@Request.RawUrl+"RawUrl"</li>
+                <li>@Request.RequestContext+"RequestContentext"</li>
+                <li>@Request.RequestType+"RequestType"</li>
+                <li>@Request.ServerVariables+"ServerVariable"</li>
+                <li>@Request.TotalBytes+"TotalBytes"</li>
+
+
+
+            </ul>
+        }
+
+        @{
+
+            if (Request.ContentLength != 0) { 
+            var Numeroa = Request["Numero1"].ToString();
+            var numerob = Request["Numero2"].ToString();
+            var resultado = double.Parse(Numeroa) + double.Parse(numerob);
+
+
+
+            <h4>@resultado</h4>
+        }
+        }
+
+
+
+    </div>
+
+</body>
+</html>

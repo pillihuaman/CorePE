@@ -25,8 +25,9 @@ namespace WEBAPICIp.Controllers
         }
 
         // POST api/values
-        [System.Web.Http.HttpPost]
-
+        //[System.Web.Http.HttpPost]
+        [HttpPost]
+        [AllowAnonymous]
         public string Post([FromBody]   Product pr)
         {
             ////Login log = new Login();
@@ -70,6 +71,8 @@ namespace WEBAPICIp.Controllers
                
         //    }
         //}
+
+       
  
 
         

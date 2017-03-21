@@ -39,7 +39,7 @@ namespace ClienteAPP
 
                 var url = await CreateProductAsync(Prod);
 
-
+                Console.WriteLine("Created at {url}" + url);
 
                 Console.ReadLine();
             
@@ -67,6 +67,7 @@ namespace ClienteAPP
 
             try
             {
+
 
 
                 HttpResponseMessage Response = await cliente.PostAsJsonAsync("api/Product", pro);

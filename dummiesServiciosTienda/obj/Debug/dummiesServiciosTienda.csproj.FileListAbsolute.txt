@@ -24,3 +24,7 @@ C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\bin
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\obj\Debug\dummiesServiciosTienda.csprojResolveAssemblyReference.cache
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\obj\Debug\dummiesServiciosTienda.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\obj\Debug\dummiesServiciosTienda.pdb
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\bin\Adapters.dll
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\bin\BusinessEntity.dll
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\bin\Adapters.pdb
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\bin\BusinessEntity.pdb

@@ -2,3 +2,4 @@ C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\BibliotecaDesarrollo\bin\D
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\BibliotecaDesarrollo\bin\Debug\BibliotecaDesarrollo.pdb
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\BibliotecaDesarrollo\obj\Debug\BibliotecaDesarrollo.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\BibliotecaDesarrollo\obj\Debug\BibliotecaDesarrollo.pdb
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\BibliotecaDesarrollo\obj\Debug\BibliotecaDesarrollo.csprojResolveAssemblyReference.cache
