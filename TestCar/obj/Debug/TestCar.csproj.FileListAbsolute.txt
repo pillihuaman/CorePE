@@ -63,3 +63,5 @@ C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\TestCar\bin\zh-Hant\System
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\TestCar\obj\Debug\TestCar.csprojResolveAssemblyReference.cache
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\TestCar\obj\Debug\TestCar.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\TestCar\obj\Debug\TestCar.pdb
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\TestCar\bin\EntityFramework.SqlServer.dll
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\TestCar\bin\EntityFramework.SqlServer.xml

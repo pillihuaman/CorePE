@@ -24,8 +24,17 @@ namespace dummiesServiciosTienda.Models
                 {
                     using (IDbCommand commando = conexion.CreateCommand())
                     {
-                        commando.CommandText = "select top 1 IdCliente, IdClientePagoEfectivo, Nombres, ApellidoPaterno, ApellidoMaterno, IdTipoDocumento, NumeroDocumento, FechaEmisionDocumento, Email, IdTipoOperador, NumeroMovil, IMEI, FechaNacimiento, IdEstadoCivil, Genero, RecibeBoletin, AceptaPolitica, IdCanalAfiliacion, RecibeTarjeta, CodigoAfiliacion, IdEstadoCliente, FechaRegistro, FechaModificacion, IdPerfil, IdReferido, IdEstadoEnvioUnibanca, IdStand, Usuario, IdTipoActivacion from cliente where NumeroDocumento=" + NumeroDocumento ;
+                        //commando.CommandText = "select top 1 IdCliente, IdClientePagoEfectivo, Nombres, ApellidoPaterno, ApellidoMaterno, IdTipoDocumento, NumeroDocumento, FechaEmisionDocumento, Email, IdTipoOperador, NumeroMovil, IMEI, FechaNacimiento, IdEstadoCivil, Genero, RecibeBoletin, AceptaPolitica, IdCanalAfiliacion, RecibeTarjeta, CodigoAfiliacion, IdEstadoCliente, FechaRegistro, FechaModificacion, IdPerfil, IdReferido, IdEstadoEnvioUnibanca, IdStand, Usuario, IdTipoActivacion from cliente where NumeroDocumento=" + NumeroDocumento ;
+                        commando.CommandType = CommandType.StoredProcedure;
+                        commando.CommandText = "usp_GetClientes";
 
+                        SqlParameter Parameter;
+                        Parameter = new SqlParameter("@NUMERODOCUMENTO", NumeroDocumento);
+                            Parameter.Direction = ParameterDirection.Input;
+                            Parameter.DbType = DbType.String;
+                            commando.Parameters.Add(Parameter);
+                        
+        
                         using ( var reader= commando.ExecuteReader())
                         {
 

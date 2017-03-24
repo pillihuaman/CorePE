@@ -1,0 +1,45 @@
+﻿@model dummiesServiciosTienda.Models.ClienteResource
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @System.Web.Optimization.Styles.Render("~/Content/css")
+    @System.Web.Optimization.Scripts.Render("~/bundles/modernizr")
+
+</head>
+
+<body>
+    <div>
+        @{  if (Model != null)
+          {
+            <table>
+                <tr><td>ApellidoPaterno</td><td>ApellidoMaterno</td><td>AceptaPolitica</td><td>CodigoAfiliacion</td><td>Email</td><td>FechaModificacion</td><td>Mensaje</td></tr>
+                <tr><td>@Model.Cliente.ApellidoPaterno</td><td>@Model.Cliente.ApellidoMaterno</td><td>@Model.Cliente.AceptaPolitica</td><td>@Model.Cliente.CodigoAfiliacion</td><td>@Model.Cliente.Email</td><td>@Model.Cliente.FechaModificacion</td><td>@Model.Mensaje</td></tr>
+            </table>
+
+          }
+          else
+          {
+            <div>NO hay registro valido</div>
+          }
+
+        }
+
+
+
+
+
+    </div>
+    @RenderBody()
+
+    @System.Web.Optimization.Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

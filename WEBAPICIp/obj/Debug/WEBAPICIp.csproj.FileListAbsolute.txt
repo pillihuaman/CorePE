@@ -77,3 +77,7 @@ C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\zh-Hant\Syst
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\obj\Debug\WEBAPICIp.csprojResolveAssemblyReference.cache
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\obj\Debug\WEBAPICIp.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\obj\Debug\WEBAPICIp.pdb
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\EntityFramework.SqlServer.dll
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\EntityFramework.SqlServer.xml
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\Adapters.dll
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\Adapters.pdb

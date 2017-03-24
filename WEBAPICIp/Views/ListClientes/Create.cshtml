@@ -1,0 +1,49 @@
+﻿@model dummiesServiciosTienda.Models.ClienteResource
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    @*<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>*@
+    <title>@ViewBag.Title</title>
+    @System.Web.Optimization.Styles.Render("~/Content/css")
+    @System.Web.Optimization.Scripts.Render("~/bundles/modernizr")
+
+</head>
+
+<body>
+    <div ng-app="" ng-init="Nombre='Zarmir'">
+        <p>Name:<input  type="text" ng-model="name"/></p>
+        @{  if (Model != null)
+          {
+            <table>
+                <tr><td>ApellidoPaterno</td><td>ApellidoMaterno</td><td>AceptaPolitica</td><td>CodigoAfiliacion</td><td>Email</td><td>FechaModificacion</td><td>Mensaje</td></tr>
+                <tr><td>@Model.Cliente.ApellidoPaterno</td><td>@Model.Cliente.ApellidoMaterno</td><td>@Model.Cliente.AceptaPolitica</td><td>@Model.Cliente.CodigoAfiliacion</td><td>@Model.Cliente.Email</td><td>@Model.Cliente.FechaModificacion</td><td>@Model.Mensaje</td></tr>
+            </table>
+
+          }
+          else
+          {
+            <div>NO hay registro valido</div>
+            
+          }
+
+        }
+
+        <p ng-bind="Nombre"></p> <p ng-bind="name"></p>
+        <h1 ng-bind="name"></h1>
+        <label ng-bind="name"></label>
+        <h2 ng-bind="name"  style="color:ActiveCaption"></h2>
+
+<p>My first expression: {{ 5 + 5 }}</p>
+</div>
+   
+    @System.Web.Optimization.Scripts.Render("~/bundles/jquery")
+    @*@RenderSection("scripts", required: false)*@
+</body>
+</html>
