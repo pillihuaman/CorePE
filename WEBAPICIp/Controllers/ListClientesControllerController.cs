@@ -34,6 +34,12 @@ namespace dummiesServiciosTienda.Controllers
             return View();
         }
 
+        public ActionResult UpdateClientes()
+        {
+            return View();
+        }
+
+
         //
         // POST: /ListClientes/Create
 

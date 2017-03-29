@@ -1,10 +1,12 @@
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\WEBAPICIp.dll.config
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\WEBAPICIp.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\WEBAPICIp.pdb
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\Adapters.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\Antlr3.Runtime.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\BibliotecaDesarrollo.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\BusinessEntity.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\EntityFramework.dll
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\EntityFramework.SqlServer.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\Microsoft.Data.Edm.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\Microsoft.Data.OData.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\Microsoft.Web.Infrastructure.dll
@@ -27,13 +29,15 @@ C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\System.Web.W
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\System.Web.WebPages.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\System.Web.WebPages.Razor.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\WebGrease.dll
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\Adapters.pdb
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\BibliotecaDesarrollo.pdb
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\BusinessEntity.pdb
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\EntityFramework.xml
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\EntityFramework.SqlServer.xml
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\Newtonsoft.Json.xml
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\System.Net.Http.Formatting.xml
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\System.Web.Http.xml
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\System.Web.Http.WebHost.xml
-C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\EntityFramework.xml
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\System.Net.Http.xml
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\System.Web.Helpers.xml
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\System.Web.Mvc.xml
@@ -77,7 +81,3 @@ C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\zh-Hant\Syst
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\obj\Debug\WEBAPICIp.csprojResolveAssemblyReference.cache
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\obj\Debug\WEBAPICIp.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\obj\Debug\WEBAPICIp.pdb
-C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\EntityFramework.SqlServer.dll
-C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\EntityFramework.SqlServer.xml
-C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\Adapters.dll
-C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WEBAPICIp\bin\Adapters.pdb

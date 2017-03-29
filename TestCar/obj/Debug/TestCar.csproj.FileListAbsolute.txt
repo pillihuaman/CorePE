@@ -3,6 +3,7 @@ C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\TestCar\bin\TestCar.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\TestCar\bin\TestCar.pdb
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\TestCar\bin\Antlr3.Runtime.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\TestCar\bin\EntityFramework.dll
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\TestCar\bin\EntityFramework.SqlServer.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\TestCar\bin\Microsoft.Data.Edm.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\TestCar\bin\Microsoft.Data.OData.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\TestCar\bin\Microsoft.Web.Infrastructure.dll
@@ -21,6 +22,7 @@ C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\TestCar\bin\System.Web.Web
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\TestCar\bin\System.Web.WebPages.Razor.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\TestCar\bin\WebGrease.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\TestCar\bin\EntityFramework.xml
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\TestCar\bin\EntityFramework.SqlServer.xml
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\TestCar\bin\Newtonsoft.Json.xml
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\TestCar\bin\System.Web.Helpers.xml
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\TestCar\bin\System.Web.Mvc.xml
@@ -63,5 +65,3 @@ C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\TestCar\bin\zh-Hant\System
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\TestCar\obj\Debug\TestCar.csprojResolveAssemblyReference.cache
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\TestCar\obj\Debug\TestCar.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\TestCar\obj\Debug\TestCar.pdb
-C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\TestCar\bin\EntityFramework.SqlServer.dll
-C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\TestCar\bin\EntityFramework.SqlServer.xml

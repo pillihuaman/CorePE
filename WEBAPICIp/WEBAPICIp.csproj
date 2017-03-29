@@ -275,6 +275,7 @@
     <Content Include="Scripts\knockout-2.2.0.debug.js" />
     <Content Include="Scripts\knockout-2.2.0.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\ProcesosClientes.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -305,6 +306,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Parcelas\Index.cshtml" />
     <Content Include="Views\ListClientes\Create.cshtml" />
+    <Content Include="Views\ListClientes\UpdateClientes.cshtml" />
     <Content Include="Views\ListClientes\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>

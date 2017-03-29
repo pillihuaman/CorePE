@@ -1,0 +1,46 @@
+﻿
+
+<html data-ng-app="AppName">
+
+<head>
+    <title>Angular JS Controller</title>
+
+    <script src="angular.js"></script>
+</head>
+
+<body>
+    <p>Name</p><input type="text" data-ng-model="name" /><p>{{name}}</p>
+    <p>listar nombre de las personas</p>
+    <ul>
+        <li data-ng-repeat="cuts in Customer">{{cuts.name}}  {{cuts.city}}</li>
+    </ul>
+
+    <p>Usando filtro para display information</p>
+    <ul><li data-ng-repeat="cuts in Customer | filter:name| orderBy:'city'">{{cuts.name}} <h10>--</h10>{{cuts.city}}</li></ul>
+    <h1>Declaracion de controladores Angulad</h1>
+    <div class="Controoladore" data-ng-controller="ControladorClientes">
+
+        <ul><li class="daa" data-ng-repeat="custon in Customer">{{custon.name}}</li></ul>
+
+
+    </div>
+    <script>
+        var app = angular.module('AppName', []);
+    app.controller('ControladorClientes', function ($scope) {
+        $scope.Customer = [{ name: 'zarmir', city: 'Lima' },
+       { name: 'Carlo', city: 'Pucallapa' },
+        { name: 'marone', city: 'tucuman' },
+         { name: 'lete', city: 'san pablo' },
+        { name: 'Loro', city: 'Leticia' }
+        ];
+
+    });
+
+
+
+    </script>
+
+
+
+</body>
+</html>

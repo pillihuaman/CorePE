@@ -18,9 +18,16 @@ namespace WEBAPICIp
                         "~/Scripts/jquery.unobtrusive*",
                         "~/Scripts/jquery.validate*"));
 
-            bundles.Add(new ScriptBundle("~/bundles/jquery").Include
+            bundles.Add(new ScriptBundle("~/bundles/jqueryAngular").Include
             ("~/Scripts/angular.js"));
 
+            bundles.Add(new ScriptBundle("~/bundles/jqueryAngularmin").Include
+        ("~/Scripts/angular.min.js"));
+
+
+
+            bundles.Add(new ScriptBundle("~/bundles/jqueryuiProcesosClientes").Include(
+                "~/Scripts/ProcesosClientes.js"));
 
             // Use the development version of Modernizr to develop with and learn from. Then, when you're
             // ready for production, use the build tool at http://modernizr.com to pick only the tests you need.

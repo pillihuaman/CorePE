@@ -1,6 +1,8 @@
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\bin\dummiesServiciosTienda.dll.config
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\bin\dummiesServiciosTienda.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\bin\dummiesServiciosTienda.pdb
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\bin\Adapters.dll
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\bin\BusinessEntity.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\bin\Newtonsoft.Json.dll
@@ -8,10 +10,13 @@ C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\bin
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\bin\System.Net.Http.WebRequest.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\bin\System.Web.Helpers.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\bin\System.Web.Mvc.dll
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\bin\System.Web.Optimization.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\bin\System.Web.Razor.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\bin\System.Web.WebPages.Deployment.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\bin\System.Web.WebPages.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\bin\System.Web.WebPages.Razor.dll
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\bin\Adapters.pdb
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\bin\BusinessEntity.pdb
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\bin\Newtonsoft.Json.xml
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\bin\System.Net.Http.xml
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\bin\System.Web.Helpers.xml
@@ -24,8 +29,3 @@ C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\bin
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\obj\Debug\dummiesServiciosTienda.csprojResolveAssemblyReference.cache
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\obj\Debug\dummiesServiciosTienda.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\obj\Debug\dummiesServiciosTienda.pdb
-C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\bin\Adapters.dll
-C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\bin\BusinessEntity.dll
-C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\bin\Adapters.pdb
-C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\bin\BusinessEntity.pdb
-C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\dummiesServiciosTienda\bin\System.Web.Optimization.dll

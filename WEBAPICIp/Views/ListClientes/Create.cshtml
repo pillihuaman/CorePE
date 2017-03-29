@@ -9,16 +9,16 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    @*<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>*@
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
     <title>@ViewBag.Title</title>
     @System.Web.Optimization.Styles.Render("~/Content/css")
     @System.Web.Optimization.Scripts.Render("~/bundles/modernizr")
-
+    @System.Web.Optimization.Scripts.Render("~/bundles/jqueryuiProcesosClientes")
 </head>
 
 <body>
-    <div ng-app="" ng-init="Nombre='Zarmir'">
-        <p>Name:<input  type="text" ng-model="name"/></p>
+    <div ng-app="mainApp" ng-controller="studentController">
+        <p>Name:<input type="text" ng-model="name" /></p>
         @{  if (Model != null)
           {
             <table>
@@ -30,20 +30,56 @@
           else
           {
             <div>NO hay registro valido</div>
-            
+
           }
 
         }
 
-        <p ng-bind="Nombre"></p> <p ng-bind="name"></p>
-        <h1 ng-bind="name"></h1>
-        <label ng-bind="name"></label>
-        <h2 ng-bind="name"  style="color:ActiveCaption"></h2>
+       
 
-<p>My first expression: {{ 5 + 5 }}</p>
-</div>
+
+
+        Enter first name: <input type="text" ng-model="student.firstName"><br><br>
+        Enter last name: <input type="text" ng-model="student.lastName"><br>
+
+        <p ng-bind="mainApp"></p> <p ng-bind="mainApp"></p>
+        <h1 ng-bind="mainApp"></h1>
+        <label ng-bind="mainApp"></label>
+        <h2 ng-bind="mainApp" style="color:ActiveCaption"></h2>
+
+        <p>My first expression: {{ 5 + 5 }}</p>
+        <br>
+
+        You are entering: {{student.fullName()}}
+    </div>
+
+    <script>
+        var mainApp = angular.module("mainApp", []);
+
+        mainApp.controller('studentController', function ($scope) {
+            $scope.student = {
+                firstName: "Mahesh",
+                lastName: "Parashar",
+
+                fullName: function () {
+                    var studentObject;
+                    studentObject = $scope.student;
+                    return studentObject.firstName + " " + studentObject.lastName;
+                }
+            };
+        });
+
+  
+
+    </script>
+
+
+
+
    
     @System.Web.Optimization.Scripts.Render("~/bundles/jquery")
-    @*@RenderSection("scripts", required: false)*@
+    @System.Web.Optimization.Scripts.Render("~/bundles/jqueryAngular")
+    @System.Web.Optimization.Scripts.Render("~/bundles/jqueryAngularmin")
+   
 </body>
 </html>

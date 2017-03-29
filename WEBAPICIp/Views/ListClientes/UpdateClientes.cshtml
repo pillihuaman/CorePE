@@ -1,0 +1,30 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>UpdateClientes</title>
+    @System.Web.Optimization.Styles.Render("~/Content/css")
+    @System.Web.Optimization.Scripts.Render("~/bundles/modernizr")
+    @System.Web.Optimization.Scripts.Render("~/bundles/jqueryAngular")
+    @System.Web.Optimization.Scripts.Render("~/bundles/jqueryAngularmin")
+
+</head>
+<body>
+    <div ng-app="APP_" ng-controller="UpdateClientes" >
+        <input  type="text" ng-model="Nombre"/>
+        <input type="text"  ng-model="Apellidos"/>
+        Full Name {{ Nombre +"  "+  Apellidos }}
+        
+    </div>
+
+
+
+    @System.Web.Optimization.Scripts.Render("~/bundles/jquery")
+    @System.Web.Optimization.Scripts.Render("~/bundles/jqueryuiProcesosClientes")
+</body>
+</html>
