@@ -1,0 +1,36 @@
+﻿
+@{
+    var version = DateTime.Now.Year.ToString() + DateTime.Now.Month.ToString() + DateTime.Now.Day.ToString();
+    <p>Time: @version</p>
+}
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    @section scripts{
+        @System.Web.Optimization.Styles.Render("~/Content/css")
+        @System.Web.Optimization.Scripts.Render("~/bundles/modernizr")
+        @System.Web.Optimization.Scripts.Render("~/bundles/jquery")
+        @System.Web.Optimization.Scripts.Render("~/bundles/jqueryAngular")
+        @System.Web.Optimization.Scripts.Render("~/bundles/jqueryuiProcesosClientes")
+
+
+
+    }
+
+
+
+
+
+</head>
+<body>
+    <div>
+        
+    </div>
+</body>
+</html>

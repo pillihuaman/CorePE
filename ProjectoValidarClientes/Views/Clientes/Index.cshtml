@@ -1,0 +1,218 @@
+﻿@model IEnumerable<ProjectoValidarClientes.Models.BIClientes>
+
+@{
+    ViewBag.Title = "Bienvenido - Clientes control";
+    //Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <p>@Html.CheckBox("Lista Clientes",true)</p>
+    @Html.TextArea("Area1","");
+    @Html.TextBox("txtCliente", "")
+   @*<a href="@Html.Action("Create", "Clientes")">Create</a>;*@
+    @Html.ActionLink("Clientes", "Create")
+    <table>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.IdCliente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdClientePagoEfectivo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombres)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ApellidoPaterno)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ApellidoMaterno)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdTipoDocumento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NumeroDocumento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaEmisionDocumento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdTipoOperador)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NumeroMovil)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IMEI)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaNacimiento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdEstadoCivil)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Genero)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RecibeBoletin)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AceptaPolitica)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdCanalAfiliacion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RecibeTarjeta)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CodigoAfiliacion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdEstadoCliente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaRegistro)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaModificacion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdPerfil)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdReferido)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdEstadoEnvioUnibanca)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdStand)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Usuario)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdTipoActivacion)
+            </th>
+            <th></th>
+        </tr>
+    
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdCliente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdClientePagoEfectivo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombres)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ApellidoPaterno)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ApellidoMaterno)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdTipoDocumento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NumeroDocumento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaEmisionDocumento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdTipoOperador)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NumeroMovil)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IMEI)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaNacimiento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdEstadoCivil)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Genero)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RecibeBoletin)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AceptaPolitica)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdCanalAfiliacion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RecibeTarjeta)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CodigoAfiliacion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdEstadoCliente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaRegistro)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaModificacion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdPerfil)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdReferido)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdEstadoEnvioUnibanca)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdStand)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Usuario)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdTipoActivacion)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+    }
+    
+    </table>
+    @*@RenderBody();*@
+</body>
+</html>
