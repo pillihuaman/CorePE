@@ -4,33 +4,36 @@
     <p>Time: @version</p>
 }
 
-@{
-    Layout = null;
-}
 
 <!DOCTYPE html>
 
 <html>
 <head>
-    @section scripts{
-        @System.Web.Optimization.Styles.Render("~/Content/css")
-        @System.Web.Optimization.Scripts.Render("~/bundles/modernizr")
-        @System.Web.Optimization.Scripts.Render("~/bundles/jquery")
-        @System.Web.Optimization.Scripts.Render("~/bundles/jqueryAngular")
-        @System.Web.Optimization.Scripts.Render("~/bundles/jqueryuiProcesosClientes")
+    <title>Pagina maestra</title>
+        @*@System.Web.Optimization.Styles.Render("~/Content/css")
+        @System.Web.Optimization.Scripts.Render("~/bundles/modernizr")*@
 
-
-
-    }
-
-
-
-
-
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <link href="~/Content/themes/base/jquery.ui.accordion.css" rel="stylesheet" />
+    <link href="~/Content/themes/base/jquery-ui.css" rel="stylesheet" />
+    <link href="~/Content/themes/base/jquery.ui.autocomplete.css" rel="stylesheet" />
+    <link href="~/Content/themes/base/jquery.ui.theme.css" rel="stylesheet" />
+    <link href="~/Content/themes/base/jquery.ui.tabs.css" rel="stylesheet" />
+    <link href="~/Content/themes/base/minified/jquery-ui.min.css" rel="stylesheet" />
+    <link href="~/Content/themes/base/minified/jquery.ui.accordion.min.css" rel="stylesheet" />
+    <link href="~/Content/themes/base/minified/jquery.ui.autocomplete.min.css" rel="stylesheet" />
 </head>
 <body>
-    <div>
-        
-    </div>
+  @RenderBody()
+
+    <script src="~/Scripts/jquery-1.8.2.js"></script>
+    <script src="~/Scripts/jquery-1.8.2.intellisense.js"></script>
+    <script src="~/Scripts/angular.js"></script>
+    <script src="~/Scripts/angular.min.js"></script>
+
+    @*@System.Web.Optimization.Scripts.Render("~/bundles/jquery")
+    @System.Web.Optimization.Scripts.Render("~/bundles/jqueryAngular")
+    @System.Web.Optimization.Scripts.Render("~/bundles/jqueryuiProcesosClientes")*@
+    @*@RenderSection("scripts", required: false)*@
 </body>
 </html>

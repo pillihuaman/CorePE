@@ -1,0 +1,273 @@
+﻿@model ProjectoValidarClientes.Models.BIClientes
+
+@{
+    ViewBag.Title = "Editar Clientes";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+
+@*@using (Ajax.BeginForm("Create", "Create",  new AjaxOptions { UpdateTargetId = "divInterestDeatils"}))
+{*@
+
+    @using (Html.BeginForm("Create", "Clientes", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+
+    <fieldset>
+        <legend>BIClientes</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.IdCliente)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.IdCliente)
+            @Html.ValidationMessageFor(model => model.IdCliente)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.IdClientePagoEfectivo)
+        </div>
+        <div class="editor-field">
+            @*@Html.EditorFor(model => model.IdClientePagoEfectivo)*@
+            <input type="text" name="IdClientePagoEfectivo" />
+            @Html.ValidationMessageFor(model => model.IdClientePagoEfectivo)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Nombres)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Nombres)
+            @Html.ValidationMessageFor(model => model.Nombres)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.ApellidoPaterno)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.ApellidoPaterno)
+            @Html.ValidationMessageFor(model => model.ApellidoPaterno)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.ApellidoMaterno)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.ApellidoMaterno)
+            @Html.ValidationMessageFor(model => model.ApellidoMaterno)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.IdTipoDocumento)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.IdTipoDocumento)
+            @Html.ValidationMessageFor(model => model.IdTipoDocumento)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.NumeroDocumento)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.NumeroDocumento)
+            @Html.ValidationMessageFor(model => model.NumeroDocumento)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.FechaEmisionDocumento)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.FechaEmisionDocumento)
+            @Html.ValidationMessageFor(model => model.FechaEmisionDocumento)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Email)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Email)
+            @Html.ValidationMessageFor(model => model.Email)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.IdTipoOperador)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.IdTipoOperador)
+            @Html.ValidationMessageFor(model => model.IdTipoOperador)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.NumeroMovil)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.NumeroMovil)
+            @Html.ValidationMessageFor(model => model.NumeroMovil)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.IMEI)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.IMEI)
+            @Html.ValidationMessageFor(model => model.IMEI)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.FechaNacimiento)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.FechaNacimiento)
+            @Html.ValidationMessageFor(model => model.FechaNacimiento)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.IdEstadoCivil)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.IdEstadoCivil)
+            @Html.ValidationMessageFor(model => model.IdEstadoCivil)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Genero)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Genero)
+            @Html.ValidationMessageFor(model => model.Genero)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.RecibeBoletin)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.RecibeBoletin)
+            @Html.ValidationMessageFor(model => model.RecibeBoletin)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.AceptaPolitica)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.AceptaPolitica)
+            @Html.ValidationMessageFor(model => model.AceptaPolitica)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.IdCanalAfiliacion)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.IdCanalAfiliacion)
+            @Html.ValidationMessageFor(model => model.IdCanalAfiliacion)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.RecibeTarjeta)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.RecibeTarjeta)
+            @Html.ValidationMessageFor(model => model.RecibeTarjeta)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.CodigoAfiliacion)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.CodigoAfiliacion)
+            @Html.ValidationMessageFor(model => model.CodigoAfiliacion)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.IdEstadoCliente)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.IdEstadoCliente)
+            @Html.ValidationMessageFor(model => model.IdEstadoCliente)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.FechaRegistro)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.FechaRegistro)
+            @Html.ValidationMessageFor(model => model.FechaRegistro)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.FechaModificacion)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.FechaModificacion)
+            @Html.ValidationMessageFor(model => model.FechaModificacion)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.IdPerfil)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.IdPerfil)
+            @Html.ValidationMessageFor(model => model.IdPerfil)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.IdReferido)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.IdReferido)
+            @Html.ValidationMessageFor(model => model.IdReferido)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.IdEstadoEnvioUnibanca)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.IdEstadoEnvioUnibanca)
+            @Html.ValidationMessageFor(model => model.IdEstadoEnvioUnibanca)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.IdStand)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.IdStand)
+            @Html.ValidationMessageFor(model => model.IdStand)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Usuario)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Usuario)
+            @Html.ValidationMessageFor(model => model.Usuario)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.IdTipoActivacion)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.IdTipoActivacion)
+            @Html.ValidationMessageFor(model => model.IdTipoActivacion)
+        </div>
+
+        <p>
+         
+        </p>
+    </fieldset>
+
+
+
+
+    if (Request.ContentLength != 0)
+    {
+        var IdCliente = Request["IdCliente"].ToString();
+        var Nombres = Request["Nombres"].ToString();
+
+ 
+
+
+    }
+    <button>Enviar</button>
+        <input type="submit" />
+}
+
+<div>
+    @*@Html.ActionLink("Back to List", "Index")*@
+</div>

@@ -2,7 +2,8 @@
 
 @{
     ViewBag.Title = "Bienvenido - Clientes control";
-    //Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
 }
 
 
@@ -205,7 +206,7 @@
                 @Html.DisplayFor(modelItem => item.IdTipoActivacion)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Edit", "Edit", new { id = item.NumeroDocumento }) |
                 @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
                 @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
             </td>
@@ -213,6 +214,6 @@
     }
     
     </table>
-    @*@RenderBody();*@
+
 </body>
 </html>

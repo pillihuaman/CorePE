@@ -1,15 +1,18 @@
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\ProjectoValidarClientes\bin\ProjectoValidarClientes.dll.config
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\ProjectoValidarClientes\bin\ProjectoValidarClientes.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\ProjectoValidarClientes\bin\ProjectoValidarClientes.pdb
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\ProjectoValidarClientes\bin\Adapters.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\ProjectoValidarClientes\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\ProjectoValidarClientes\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\ProjectoValidarClientes\bin\Newtonsoft.Json.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\ProjectoValidarClientes\bin\System.Web.Helpers.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\ProjectoValidarClientes\bin\System.Web.Mvc.dll
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\ProjectoValidarClientes\bin\System.Web.Optimization.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\ProjectoValidarClientes\bin\System.Web.Razor.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\ProjectoValidarClientes\bin\System.Web.WebPages.Deployment.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\ProjectoValidarClientes\bin\System.Web.WebPages.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\ProjectoValidarClientes\bin\System.Web.WebPages.Razor.dll
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\ProjectoValidarClientes\bin\Adapters.pdb
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\ProjectoValidarClientes\bin\Newtonsoft.Json.xml
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\ProjectoValidarClientes\bin\System.Web.Helpers.xml
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\ProjectoValidarClientes\bin\System.Web.Mvc.xml
@@ -20,6 +23,3 @@ C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\ProjectoValidarClientes\bi
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\ProjectoValidarClientes\obj\Debug\ProjectoValidarClientes.csprojResolveAssemblyReference.cache
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\ProjectoValidarClientes\obj\Debug\ProjectoValidarClientes.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\ProjectoValidarClientes\obj\Debug\ProjectoValidarClientes.pdb
-C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\ProjectoValidarClientes\bin\Adapters.dll
-C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\ProjectoValidarClientes\bin\Adapters.pdb
-C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\ProjectoValidarClientes\bin\System.Web.Optimization.dll

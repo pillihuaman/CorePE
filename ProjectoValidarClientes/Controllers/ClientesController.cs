@@ -13,22 +13,32 @@ namespace ProjectoValidarClientes.Controllers
         //
         // GET: /Clientes/
 
-        public ActionResult Index(string NumeroDocumento)
-        {
-            var clientes = Server.HtmlEncode(NumeroDocumento);
-            if (clientes != null)
-            {
-                var lista = Listarclientes(clientes);
+        //public ActionResult Index(string NumeroDocumento)
+        //{
+        //    var clientes = Server.HtmlEncode(NumeroDocumento);
+        //    if (clientes != null)
+        //    {
+        //        var lista = Listarclientes(clientes);
 
-                return View(lista);
-            }
-            else 
-            {
-                return View();
-            }
+        //        return View(lista);
+        //    }
+        //    else 
+        //    {
+        //        return View();
+        //    }
 
        
+        //}
+
+        public ActionResult Index()
+        {
+
+            var lista = Listartodosclientes();
+       return View(lista);
+         
+
         }
+
 
         //
         // GET: /Clientes/Details/5
@@ -56,6 +66,8 @@ namespace ProjectoValidarClientes.Controllers
             {
                 // TODO: Add insert logic here
 
+
+
                 return RedirectToAction("Index");
             }
             catch
@@ -67,9 +79,10 @@ namespace ProjectoValidarClientes.Controllers
         //
         // GET: /Clientes/Edit/5
 
-        public ActionResult Edit(int id)
+        public ActionResult Edit(string id)
         {
-            return View();
+
+            return View(Editrclientes(id));
         }
 
         //
@@ -116,9 +129,15 @@ namespace ProjectoValidarClientes.Controllers
             }
         }
         [NonAction]
-        public List<BIClientes> Listarclientes(string numeroDNI)
+        public BIClientes Editrclientes(string numeroDNI)
         {
-            return ProcesosCliente.Listarcliente(numeroDNI);
+            return ProcesosCliente.Editcliente(numeroDNI);
+
+        }
+          [NonAction]
+        public List<BIClientes> Listartodosclientes()
+        {
+            return ProcesosCliente.Listarallclientes();
 
         }
     }
