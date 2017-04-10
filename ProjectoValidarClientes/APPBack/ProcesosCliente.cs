@@ -120,7 +120,7 @@ namespace ProjectoValidarClientes.APPBack
                                 Recurso.CodigoAfiliacion = reader["CodigoAfiliacion"].ToString();
                                 Recurso.Email = reader["Email"].ToString();
                                 Recurso.NumeroMovil = reader["NumeroMovil"].ToString();
-                                Recurso.FechaModificacion = reader["FechaModificacion"].ToString();
+                                Recurso.FechaRegistro = reader["FechaRegistro"].ToString();
                                 listacliente.Add(Recurso);
 
 
@@ -142,33 +142,25 @@ namespace ProjectoValidarClientes.APPBack
 
 
         }
-        public static void Update(BIClientes getClientes)
+        public static void Update(BIClientes clientes)
         {
 
-
-            BIClientes Recurso = null;
-          
+           
             try
             {
 
-                using (IDbConnection conexion = SqlDbAdapter.GetConexion())
+                using (SqlConnection conexion = SqlDbAdapter.GetConexion())
                 {
-                    using (IDbCommand commando = conexion.CreateCommand())
+                    using (SqlCommand commando = new SqlCommand())
                     {
-                     
-                        commando.CommandType = CommandType.Text;
+                        commando.Connection = conexion;
+                        commando.CommandType = CommandType.StoredProcedure;
                         commando.CommandText = "Usp_UpdateClientes";
-
-                        SqlParameter Parameter;
-                        Parameter = new SqlParameter("@NumeroDocumento", getClientes.NumeroDocumento); Parameter.Direction = ParameterDirection.Input; Parameter.DbType = DbType.String;
-                        Parameter = new SqlParameter("@IdClientePagoEfectivo", getClientes.IdClientePagoEfectivo); Parameter.Direction = ParameterDirection.Input; Parameter.DbType = DbType.Int32;
-                        Parameter = new SqlParameter("@Nombres", getClientes.Nombres); Parameter.Direction = ParameterDirection.Input; Parameter.DbType = DbType.String;
-                        Parameter = new SqlParameter("@ApellidoPaterno", getClientes.ApellidoPaterno); Parameter.Direction = ParameterDirection.Input; Parameter.DbType = DbType.String;
-                        Parameter = new SqlParameter("@IdCliente", getClientes.IdCliente); Parameter.Direction = ParameterDirection.Input; Parameter.DbType = DbType.Int32;
-
-
-                        commando.Parameters.Add(Parameter);
-
+                        commando.Parameters.AddWithValue("@IdCliente", clientes.IdCliente);
+                        commando.Parameters.AddWithValue("@NumeroDocumento", clientes.NumeroDocumento);
+                        commando.Parameters.AddWithValue("@IdClientePagoEfectivo", clientes.IdClientePagoEfectivo);
+                        commando.Parameters.AddWithValue("@ApellidoPaterno", clientes.ApellidoPaterno);
+                        commando.Parameters.AddWithValue("@Nombres", clientes.Nombres);
 
                         using (var reader = commando.ExecuteReader())
                         {
@@ -176,23 +168,8 @@ namespace ProjectoValidarClientes.APPBack
                             while (reader.Read())
                             {
 
-                                //Recurso = new BIClientes();
-
-
-                          
-                                //Recurso.IdCliente = reader["IdCliente"].ToString();
-                                //Recurso.IdClientePagoEfectivo = reader["IdClientePagoEfectivo"].ToString();
-                                //Recurso.Nombres = reader["Nombres"].ToString();
-                                //Recurso.ApellidoPaterno = reader["ApellidoPaterno"].ToString();
-                                //Recurso.NumeroDocumento = reader["NumeroDocumento"].ToString();
-                                //Recurso.ApellidoMaterno = reader["ApellidoMaterno"].ToString();
-                                //Recurso.AceptaPolitica = reader["AceptaPolitica"].ToString();
-                                //Recurso.CodigoAfiliacion = reader["CodigoAfiliacion"].ToString();
-                                //Recurso.Email = reader["Email"].ToString();
-                                //Recurso.NumeroMovil = reader["NumeroMovil"].ToString();
-                                //Recurso.FechaModificacion = reader["FechaModificacion"].ToString();
-                          
-                         
+                                string Mensaje = reader["Mensaje"].ToString();
+                               
 
                             }
 
@@ -202,13 +179,14 @@ namespace ProjectoValidarClientes.APPBack
 
                 }
 
+
             }
 
             catch (Exception ex)
             {
                 throw ex;
             }
-            return Recurso;
+            //return Recurso;
         
         
         }

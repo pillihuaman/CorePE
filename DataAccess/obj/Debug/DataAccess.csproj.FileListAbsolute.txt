@@ -3,3 +3,4 @@ C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\DataAccess\bin\Debug\DataA
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\DataAccess\bin\Debug\DataAccess.pdb
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\DataAccess\obj\Debug\DataAccess.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache

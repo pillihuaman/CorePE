@@ -3,3 +3,4 @@ C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WebApplication1\bin\WebApp
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WebApplication1\bin\WebApplication1.pdb
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WebApplication1\obj\Debug\WebApplication1.dll
 C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache

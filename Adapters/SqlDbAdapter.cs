@@ -10,9 +10,9 @@ namespace Adapters
 {
   public  class SqlDbAdapter
     {
-      public static IDbConnection GetConexion()
+      public static SqlConnection GetConexion()
       {
-          IDbConnection DBconexio = new SqlConnection(ConfigurationManager.ConnectionStrings["cnBDBD"].ConnectionString);
+          SqlConnection DBconexio = new SqlConnection(ConfigurationManager.ConnectionStrings["cnBDBD"].ConnectionString);
           DBconexio.Open();
           return DBconexio;
       

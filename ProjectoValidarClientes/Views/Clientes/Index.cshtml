@@ -47,25 +47,25 @@
             <th>
                 @Html.DisplayNameFor(model => model.NumeroDocumento)
             </th>
-            <th>
+            @*<th>
                 @Html.DisplayNameFor(model => model.FechaEmisionDocumento)
-            </th>
+            </th>*@
             <th>
                 @Html.DisplayNameFor(model => model.Email)
             </th>
-            <th>
+            @*<th>
                 @Html.DisplayNameFor(model => model.IdTipoOperador)
-            </th>
+            </th>*@
             <th>
                 @Html.DisplayNameFor(model => model.NumeroMovil)
             </th>
-            <th>
+            @*<th>
                 @Html.DisplayNameFor(model => model.IMEI)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.FechaNacimiento)
-            </th>
-            <th>
+            </th>*@
+            @*<th>
                 @Html.DisplayNameFor(model => model.IdEstadoCivil)
             </th>
             <th>
@@ -88,14 +88,14 @@
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.IdEstadoCliente)
-            </th>
+            </th>*@
             <th>
                 @Html.DisplayNameFor(model => model.FechaRegistro)
             </th>
-            <th>
+            @*<th>
                 @Html.DisplayNameFor(model => model.FechaModificacion)
-            </th>
-            <th>
+            </th>*@
+            @*<th>
                 @Html.DisplayNameFor(model => model.IdPerfil)
             </th>
             <th>
@@ -112,7 +112,7 @@
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.IdTipoActivacion)
-            </th>
+            </th>*@
             <th></th>
         </tr>
     
@@ -139,20 +139,20 @@
             <td>
                 @Html.DisplayFor(modelItem => item.NumeroDocumento)
             </td>
-            <td>
+            @*<td>
                 @Html.DisplayFor(modelItem => item.FechaEmisionDocumento)
-            </td>
+            </td>*@
             <td>
                 @Html.DisplayFor(modelItem => item.Email)
             </td>
-            <td>
+            @*<td>
                 @Html.DisplayFor(modelItem => item.IdTipoOperador)
-            </td>
+            </td>*@
             <td>
                 @Html.DisplayFor(modelItem => item.NumeroMovil)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.IMEI)
+                @*@Html.DisplayFor(modelItem => item.IMEI)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.FechaNacimiento)
@@ -180,11 +180,11 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.IdEstadoCliente)
-            </td>
+            </td>*@
             <td>
                 @Html.DisplayFor(modelItem => item.FechaRegistro)
             </td>
-            <td>
+            @*<td>
                 @Html.DisplayFor(modelItem => item.FechaModificacion)
             </td>
             <td>
@@ -204,7 +204,7 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.IdTipoActivacion)
-            </td>
+            </td>*@
             <td>
                 @Html.ActionLink("Edit", "Edit", new { id = item.NumeroDocumento }) |
                 @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |

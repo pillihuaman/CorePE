@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.ComponentModel.DataAnnotations;
 
 namespace BusinessEntity
 {
+    
     public class BeCliente
     {
         //public int IdCliente { get; set; }
@@ -17,13 +19,24 @@ namespace BusinessEntity
         //public DateTime FechaHabilitarMonedero { get; set; }
         //public DateTime FechaInhabilitarMonedero { get; set; }
         //public string Observaciones { get; set; }
-
+       
+        [Key]
         public int IdCliente { get; set; }
         public int IdClientePagoEfectivo { get; set; }
+        [StringLength(23)]
+        [Required]
         public string Nombres { get; set; }
+         [StringLength(23)]
+        [Required]
         public string ApellidoPaterno { get; set; }
+       [StringLength(23)]
+        [Required]
         public string ApellidoMaterno { get; set; }
         public string IdTipoDocumento { get; set; }
+        [StringLength(8)]
+        [Required]
+ 
+        [RegularExpression("^[0-9]*$",ErrorMessage="Debe ingresar DNI valido")]
         public string NumeroDocumento { get; set; }
         public string FechaEmisionDocumento { get; set; }
         public string Email { get; set; }
@@ -48,7 +61,7 @@ namespace BusinessEntity
         public string IdStand { get; set; }
         public string Usuario { get; set; }
         public string IdTipoActivacion { get; set; }
-
+        public string Mensaje { get; set; }
 
 
     }

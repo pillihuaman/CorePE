@@ -89,10 +89,23 @@ namespace ProjectoValidarClientes.Controllers
         // POST: /Clientes/Edit/5
 
         [HttpPost]
-        public ActionResult Edit(int id, FormCollection collection)
+        public ActionResult Edit( FormCollection collection)
         {
             try
             {
+                BIClientes cliente = new BIClientes();
+
+                cliente.NumeroDocumento = collection["NumeroDocumento"].ToString();
+                cliente.IdClientePagoEfectivo = collection["IdClientePagoEfectivo"].ToString();
+                cliente.Nombres = collection["Nombres"].ToString();
+                cliente.ApellidoPaterno = collection["ApellidoPaterno"].ToString();
+                cliente.IdCliente = collection["IdCliente"].ToString();
+                ProcesosCliente.Update(cliente);
+
+
+
+
+
                 // TODO: Add update logic here
 
                 return RedirectToAction("Index");

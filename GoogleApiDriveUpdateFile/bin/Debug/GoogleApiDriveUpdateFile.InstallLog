@@ -1,0 +1,190 @@
+﻿Instalando ensamblado 'C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe'.
+Los parámetros afectados son:
+   logtoconsole = 
+   logfile = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.InstallLog
+   assemblypath = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe
+Instalando el servicio WSGoogleUpdateFileDI...
+El servicio WSGoogleUpdateFileDI se ha instalado correctamente.
+Creando el origen de EventLog WSGoogleUpdateFileDI en el registro Application...
+Confirmando ensamblado 'C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe'.
+Los parámetros afectados son:
+   logtoconsole = 
+   logfile = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.InstallLog
+   assemblypath = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe
+Desinstalando ensamblado 'C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe'.
+Los parámetros afectados son:
+   logtoconsole = 
+   logfile = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.InstallLog
+   assemblypath = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe
+Quitando el origen de EventLog WSGoogleUpdateFileDI.
+Se está quitando el servicio WSGoogleUpdateFileDI del sistema...
+El servicio WSGoogleUpdateFileDI se ha quitado correctamente del sistema.
+Intento de detener el servicio WSGoogleUpdateFileDI.
+Desinstalando ensamblado 'C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe'.
+Los parámetros afectados son:
+   logtoconsole = 
+   logfile = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.InstallLog
+   assemblypath = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe
+Quitando el origen de EventLog WSGoogleUpdateFileDI.
+Advertencia: el origen WSGoogleUpdateFileDI no está registrado en el equipo local.
+Se está quitando el servicio WSGoogleUpdateFileDI del sistema...
+El servicio WSGoogleUpdateFileDI se ha quitado correctamente del sistema.
+Intento de detener el servicio WSGoogleUpdateFileDI.
+Instalando ensamblado 'C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe'.
+Los parámetros afectados son:
+   logtoconsole = 
+   logfile = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.InstallLog
+   assemblypath = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe
+Instalando el servicio WSGoogleUpdateFileDI...
+Creando el origen de EventLog WSGoogleUpdateFileDI en el registro Application...
+Deshaciendo ensamblado 'C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe'.
+Los parámetros afectados son:
+   logtoconsole = 
+   logfile = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.InstallLog
+   assemblypath = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe
+Restaurando el registro de eventos al estado anterior para el origen WSGoogleUpdateFileDI.
+Instalando ensamblado 'C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe'.
+Los parámetros afectados son:
+   logtoconsole = 
+   logfile = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.InstallLog
+   assemblypath = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe
+Instalando el servicio WSGoogleUpdateFileDI...
+Creando el origen de EventLog WSGoogleUpdateFileDI en el registro Application...
+Deshaciendo ensamblado 'C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe'.
+Los parámetros afectados son:
+   logtoconsole = 
+   logfile = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.InstallLog
+   assemblypath = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe
+Restaurando el registro de eventos al estado anterior para el origen WSGoogleUpdateFileDI.
+Desinstalando ensamblado 'C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe'.
+Los parámetros afectados son:
+   logtoconsole = 
+   logfile = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.InstallLog
+   assemblypath = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe
+Quitando el origen de EventLog WSGoogleUpdateFileDI.
+Advertencia: el origen WSGoogleUpdateFileDI no está registrado en el equipo local.
+Se está quitando el servicio WSGoogleUpdateFileDI del sistema...
+El servicio WSGoogleUpdateFileDI se ha quitado correctamente del sistema.
+Intento de detener el servicio WSGoogleUpdateFileDI.
+Desinstalando ensamblado 'C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe'.
+Los parámetros afectados son:
+   logtoconsole = 
+   logfile = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.InstallLog
+   assemblypath = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe
+Quitando el origen de EventLog WSGoogleUpdateFileDI.
+Advertencia: el origen WSGoogleUpdateFileDI no está registrado en el equipo local.
+Se está quitando el servicio WSGoogleUpdateFileDI del sistema...
+El servicio WSGoogleUpdateFileDI se ha quitado correctamente del sistema.
+Intento de detener el servicio WSGoogleUpdateFileDI.
+Instalando ensamblado 'C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe'.
+Los parámetros afectados son:
+   logtoconsole = 
+   logfile = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.InstallLog
+   assemblypath = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe
+Instalando el servicio WSGoogleUpdateFileDI...
+El servicio WSGoogleUpdateFileDI se ha instalado correctamente.
+Creando el origen de EventLog WSGoogleUpdateFileDI en el registro Application...
+Confirmando ensamblado 'C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe'.
+Los parámetros afectados son:
+   logtoconsole = 
+   logfile = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.InstallLog
+   assemblypath = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe
+Instalando ensamblado 'C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe'.
+Los parámetros afectados son:
+   assemblypath = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe
+   logtoconsole = 
+   logfile = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.InstallLog
+   util = 
+Instalando el servicio WSGoogleUpdateFileDI...
+Creando el origen de EventLog WSGoogleUpdateFileDI en el registro Application...
+Deshaciendo ensamblado 'C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe'.
+Los parámetros afectados son:
+   assemblypath = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe
+   logtoconsole = 
+   logfile = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.InstallLog
+   util = 
+Restaurando el registro de eventos al estado anterior para el origen WSGoogleUpdateFileDI.
+Instalando ensamblado 'C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe'.
+Los parámetros afectados son:
+   assemblypath = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe
+   logtoconsole = 
+   logfile = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.InstallLog
+   util = 
+Instalando el servicio WSGoogleUpdateFileDI...
+Creando el origen de EventLog WSGoogleUpdateFileDI en el registro Application...
+Deshaciendo ensamblado 'C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe'.
+Los parámetros afectados son:
+   assemblypath = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe
+   logtoconsole = 
+   logfile = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.InstallLog
+   util = 
+Restaurando el registro de eventos al estado anterior para el origen WSGoogleUpdateFileDI.
+Instalando ensamblado 'C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe'.
+Los parámetros afectados son:
+   assemblypath = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe
+   logtoconsole = 
+   logfile = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.InstallLog
+   util = 
+Instalando el servicio WSGoogleUpdateFileDI...
+Creando el origen de EventLog WSGoogleUpdateFileDI en el registro Application...
+Deshaciendo ensamblado 'C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe'.
+Los parámetros afectados son:
+   assemblypath = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe
+   logtoconsole = 
+   logfile = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.InstallLog
+   util = 
+Restaurando el registro de eventos al estado anterior para el origen WSGoogleUpdateFileDI.
+Instalando ensamblado 'C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe'.
+Los parámetros afectados son:
+   assemblypath = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe
+   logtoconsole = 
+   logfile = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.InstallLog
+   util = 
+Instalando el servicio WSGoogleUpdateFileDI...
+Creando el origen de EventLog WSGoogleUpdateFileDI en el registro Application...
+Deshaciendo ensamblado 'C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe'.
+Los parámetros afectados son:
+   assemblypath = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe
+   logtoconsole = 
+   logfile = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.InstallLog
+   util = 
+Restaurando el registro de eventos al estado anterior para el origen WSGoogleUpdateFileDI.
+Desinstalando ensamblado 'C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe'.
+Los parámetros afectados son:
+   logtoconsole = 
+   logfile = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.InstallLog
+   assemblypath = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe
+Quitando el origen de EventLog WSGoogleUpdateFileDI.
+Se está quitando el servicio WSGoogleUpdateFileDI del sistema...
+El servicio WSGoogleUpdateFileDI se ha quitado correctamente del sistema.
+Intento de detener el servicio WSGoogleUpdateFileDI.
+Desinstalando ensamblado 'C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe'.
+Los parámetros afectados son:
+   logtoconsole = 
+   logfile = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.InstallLog
+   assemblypath = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe
+Quitando el origen de EventLog WSGoogleUpdateFileDI.
+Advertencia: el origen WSGoogleUpdateFileDI no está registrado en el equipo local.
+Se está quitando el servicio WSGoogleUpdateFileDI del sistema...
+El servicio WSGoogleUpdateFileDI se ha quitado correctamente del sistema.
+Intento de detener el servicio WSGoogleUpdateFileDI.
+Desinstalando ensamblado 'C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe'.
+Los parámetros afectados son:
+   logtoconsole = 
+   logfile = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.InstallLog
+   assemblypath = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe
+Quitando el origen de EventLog WSGoogleUpdateFileDI.
+Advertencia: el origen WSGoogleUpdateFileDI no está registrado en el equipo local.
+Se está quitando el servicio WSGoogleUpdateFileDI del sistema...
+El servicio WSGoogleUpdateFileDI se ha quitado correctamente del sistema.
+Intento de detener el servicio WSGoogleUpdateFileDI.
+Desinstalando ensamblado 'C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe'.
+Los parámetros afectados son:
+   logtoconsole = 
+   logfile = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.InstallLog
+   assemblypath = C:\Users\user\Documents\PE_Core_NewVersion\PE_Core_V1\GoogleApiDriveUpdateFile\bin\Debug\GoogleApiDriveUpdateFile.exe
+Quitando el origen de EventLog WSGoogleUpdateFileDI.
+Advertencia: el origen WSGoogleUpdateFileDI no está registrado en el equipo local.
+Se está quitando el servicio WSGoogleUpdateFileDI del sistema...
+El servicio WSGoogleUpdateFileDI se ha quitado correctamente del sistema.
+Intento de detener el servicio WSGoogleUpdateFileDI.

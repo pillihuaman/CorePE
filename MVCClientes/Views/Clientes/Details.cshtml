@@ -1,0 +1,226 @@
+﻿@model BusinessEntity.BeCliente
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>BeCliente</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.IdCliente)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.IdCliente)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.IdClientePagoEfectivo)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.IdClientePagoEfectivo)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Nombres)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Nombres)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.ApellidoPaterno)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ApellidoPaterno)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.ApellidoMaterno)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ApellidoMaterno)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.IdTipoDocumento)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.IdTipoDocumento)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.NumeroDocumento)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.NumeroDocumento)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.FechaEmisionDocumento)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.FechaEmisionDocumento)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Email)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Email)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.IdTipoOperador)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.IdTipoOperador)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.NumeroMovil)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.NumeroMovil)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.IMEI)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.IMEI)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.FechaNacimiento)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.FechaNacimiento)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.IdEstadoCivil)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.IdEstadoCivil)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Genero)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Genero)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.RecibeBoletin)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.RecibeBoletin)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.AceptaPolitica)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.AceptaPolitica)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.IdCanalAfiliacion)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.IdCanalAfiliacion)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.RecibeTarjeta)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.RecibeTarjeta)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CodigoAfiliacion)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CodigoAfiliacion)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.gIdEstadoCliente)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.gIdEstadoCliente)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.FechaRegistro)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.FechaRegistro)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.FechaModificacion)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.FechaModificacion)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.IdPerfil)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.IdPerfil)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.IdReferido)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.IdReferido)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.IdEstadoEnvioUnibanca)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.IdEstadoEnvioUnibanca)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.IdStand)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.IdStand)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Usuario)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Usuario)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.IdTipoActivacion)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.IdTipoActivacion)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Mensaje)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Mensaje)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.IdCliente }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
